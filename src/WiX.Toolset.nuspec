@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-16"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata minClientVersion="2.7">
+        <id>WiX.Toolset.UnofficialFork</id>
+        <version>3.10.1</version>
+        <title>WiX Toolset v3.10 (unofficial)</title>
+        <summary>Windows Installer XML (WiX Toolset) binaries for compiling setup projects.</summary>
+        <description>This package contains the binaries needed to compile Windows Installer XML (WiX) setup projects. Just add this NuGet package to your WiX setup projects and you're done (no setup required on build servers etc.). Note that you still need to install WiX Toolset in Visual Studio to get the editor experience.
+
+        File issues with the NuGet package at https://github.com/jozefizso/WiX.Toolset.NuGet
+        </description>
+        <authors>Rob Mensching,Bob Arnson</authors>
+        <owners>jozefizso</owners>
+        <projectUrl>https://github.com/jozefizso/WiX.Toolset.NuGet</projectUrl>
+        <licenseUrl>https://github.com/jozefizso/WiX.Toolset.NuGet/blob/v3.10.1/LICENSE.md</licenseUrl>
+        <iconUrl>http://wixtoolset.org/Content/logo_framed.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>WiX MSI Installer XML</tags>
+        <releaseNotes>WiX v3.10.1 is the latest recommended maintenance release of WiX v3.10 with the following important fixes:
+  * @barnson implemented a workaround for a Visual Studio 2015 issue that caused certain WiX standard custom actions to fail when run on Windows XP and Windows Server 2003. Bug 4902|Bug 4908
+  * @jchoover fixed a bug that prevented some attributes of the WixStandardBootstrapperApplication element from functioning correctly. Bug 4899
+  * @PavelAnfimov fixed a bug that prevented hyperlinks in WixStdBA from working on Windows XP and Windows Server 2003. Bug 4772
+        </releaseNotes>
+    </metadata>
+</package>
