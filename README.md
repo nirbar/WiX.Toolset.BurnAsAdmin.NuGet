@@ -8,9 +8,9 @@ The files are taken from the ZIP distribution of the WiX Toolset releases (http:
 
 Feel free to file an issue here on GitHub in case you have problems using the package.
 
-## Release 3.10.2-ext1
+## Release 3.10.2-ext2
 
-Package **3.10.2-ext1** contains the WiX v3.10.2 binaries with custom build of `burn.exe`.
+Package **3.10.2-ext2** contains the WiX v3.10.2 binaries with custom build of `burn.exe`.
 
 There are two changes in the `burn.exe` application:
 * New `WixBundleUILevel` property. Burn engine will set it to the value of the UI display level of the bootstrapper.
