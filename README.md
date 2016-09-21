@@ -13,8 +13,7 @@ Feel free to file an issue here on GitHub in case you have problems using the pa
 Package **3.10.3-ext** contains the WiX v3.10.3 binaries from official release and patched version of burn.exe bootstrapper.
 
 The following patches are applied to burn.exe in WiX v3.10.3-ext:
-* New `WixBundleUILevel` property. Burn engine will set it to the value of the UI display level of the bootstrapper.
-* Language used to localize the bootstrapper interface is determined by the `GetUserDefaultUILanguage()` function. There is a new corresponding `UserUILanguageID` property available.
+* Manifest specifies to launch with admin privileges.
 
 The following bugs were fixed in WiX v3.10.3:
 * layout: Default directory broken with clean room implementation.
