@@ -31,5 +31,8 @@ The following bugs were fixed in WiX v3.10.3:
 * Extra argument in burn command line
 * Custom burn application throws exception when accessing .NET dll when uninstalling
         </releaseNotes>
+	<dependencies>
+	  <dependency id="WiX.Toolset.UnofficialFork" version="[3.10.3-ext]" />
+	</dependencies>	
     </metadata>
 </package>
